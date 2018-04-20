@@ -16,3 +16,24 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+
+/* Concurrentie analyse */
+.container{
+    margin: auto;
+    width: 800px;
+}
+
+.container2{
+    color: white;
+    background-color: #20ca67;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.container3{
+    color: white;
+    background-color: #e74c3c;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
