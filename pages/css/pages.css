@@ -17,23 +17,43 @@ img {
 
 /* Voeg jouw css hieraan toe */
 
-/* Concurrentie analyse */
-.container{
-    margin: auto;
-    width: 800px;
+/* Code voor Concurrentie analyse */
+
+.titel{
+    text-align: center;    /* plaatst de titel in het midden */
+    margin: 30px 0 40px;
 }
 
-.container2{
+a:visited{
+    color: rgb(0, 147, 233);
+}
+
+.concurrentie{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    max-width: 500px;
+}
+
+.container2 , .container3{
     color: white;
     background-color: #20ca67;
+    margin: 0 10px 0 10px;
+    max-width: 570px;
+    min-height: 340px;
     padding: 20px;
     border-radius: 15px;
 }
 
 .container3{
-    color: white;
     background-color: #e74c3c;
-    margin-top: 20px;
-    padding: 20px;
-    border-radius: 15px;
+}
+
+/* plaats de rode en groene vlak naast elkaar */
+.justify-pos-neg{
+    display: flex;
+    justify-content: space-around;
 }
