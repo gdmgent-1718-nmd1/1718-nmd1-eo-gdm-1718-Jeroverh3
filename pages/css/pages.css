@@ -17,10 +17,15 @@ img {
 
 /* Voeg jouw css hieraan toe */
 
-/* Code voor Concurrentie analyse */
+/* Code voor intro.html */
+.intro{
+    margin: auto;
+    width: 560px;
+}
 
+/* Code voor concurrentie.html */
 .titel{
-    text-align: center;    /* plaatst de titel in het midden */
+    text-align: center;   
     margin: 30px 0 40px;
 }
 
