@@ -62,3 +62,9 @@ a:visited{
     display: flex;
     justify-content: space-around;
 }
+
+/* Code Scenarios */
+.scenarios{
+    margin: auto;
+    max-width: 500px;
+}
