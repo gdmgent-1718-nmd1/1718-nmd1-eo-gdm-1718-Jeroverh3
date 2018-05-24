@@ -12,28 +12,31 @@ body {
 }
 
 img {
-    max-width: 100%; /* Afbeeldingen responsive maken */
+    max-width: 100%;
+    /* Afbeeldingen responsive maken */
 }
 
 /* Voeg jouw css hieraan toe */
 
 /* Code voor intro.html */
-.intro{
+
+.intro {
     margin: auto;
     width: 560px;
 }
 
 /* Code voor concurrentie.html */
-.titel{
-    text-align: center;   
+
+.titel {
+    text-align: center;
     margin: 30px 0 40px;
 }
 
-a:visited{
+a:visited {
     color: rgb(0, 147, 233);
 }
 
-.concurrentie{
+.concurrentie {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -43,7 +46,7 @@ a:visited{
     max-width: 500px;
 }
 
-.container2 , .container3{
+.container2, .container3 {
     color: white;
     background-color: #20ca67;
     margin: 0 10px 0 10px;
@@ -53,18 +56,25 @@ a:visited{
     border-radius: 15px;
 }
 
-.container3{
+.container3 {
     background-color: #e74c3c;
 }
 
 /* plaats de rode en groene vlak naast elkaar */
-.justify-pos-neg{
+
+.justify-pos-neg {
     display: flex;
     justify-content: space-around;
 }
 
 /* Code Scenarios */
-.scenarios{
-    margin: auto;
+
+.container-scenarios{
+    position: absolute;
     max-width: 500px;
+    max-height: 401px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
 }
