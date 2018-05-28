@@ -36,6 +36,11 @@ a:visited {
     color: rgb(0, 147, 233);
 }
 
+.concurrentie-breedte{
+    max-width: 1000px;
+    margin:auto;
+}
+
 .concurrentie {
     display: flex;
     justify-content: space-between;
