@@ -141,11 +141,11 @@ a:visited {
 
 .font-container {
     margin: auto;
-    width: 900px;
+    max-width: 900px;
 }
 
 .fonts, .fonts2 {
-    width: 400px;
+    width: 410px;
     float: left;
     margin: 20px;
 }
@@ -184,7 +184,7 @@ a:visited {
 .justify-colorsamples {
     text-align: center;
     max-width: 900px;
-    max-height: 100px;
+    max-height: 120px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -199,9 +199,10 @@ a:visited {
 
 .kleur1, .kleur2, .kleur3, .kleur4, .kleur5, .kleur6 {
     background-color: #000000;
-    min-width: 120px;
-    min-height: 120px;
+    min-width: 130px;
+    min-height: 130px;
     border-radius: 50%;
+    font-size:20px;
 }
 
 .kleur2 {
@@ -218,11 +219,23 @@ a:visited {
 
 .kleur5 {
     background-color: #fcfcfc;
-    border: 0.1px solid #000000;
+    border: 0.5px solid #000000;
 }
 
 .kleur6 {
     background-color: hsla(34, 61%, 57%, 1);
+}
+
+.kleurcode, .kleurcode2, .kleurcode3, .kleurcode4, .kleurcode5, .kleurcode6{
+    color: #fcfcfc;
+    margin-top: 50px;
+    font-size: 16px;
+}
+.kleurcode5{
+    color: #000000;
+}
+.kleurcode6{
+    margin-top: 40px;
 }
 
 .fotos_bands {
